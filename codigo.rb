@@ -27,7 +27,7 @@ class Person
   end
   
 
-  puts "----------------------"
+ 
 
 
   class Student < Person

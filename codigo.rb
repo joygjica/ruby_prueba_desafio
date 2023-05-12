@@ -1,5 +1,5 @@
 class Person
-    attr_reader :first_name, :last_name, :age
+    attr_accessor :first_name, :last_name, :age
   
     def initialize(first_name, last_name, age)
       @first_name = first_name
@@ -63,7 +63,7 @@ class Person
   end
   
 
-  student = Student.new("Juan", "Pérez", 20)
+student = Student.new("Juan", "Pérez", 20)
 student.talk 
 
 teacher = Teacher.new("Ana", "García", 35)
